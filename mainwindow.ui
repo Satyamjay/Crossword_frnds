@@ -6,32 +6,32 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>962</width>
-    <height>649</height>
+    <width>808</width>
+    <height>570</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>MainWindow</string>
+   <string>Crossword</string>
   </property>
   <widget class="QWidget" name="centralWidget">
    <widget class="QLineEdit" name="L01">
     <property name="geometry">
      <rect>
-      <x>365</x>
-      <y>110</y>
+      <x>285</x>
+      <y>80</y>
       <width>25</width>
       <height>25</height>
      </rect>
     </property>
     <property name="maxLength">
-     <number>1</number>
+     <number>10</number>
     </property>
    </widget>
    <widget class="QLineEdit" name="L09">
     <property name="geometry">
      <rect>
-      <x>565</x>
-      <y>110</y>
+      <x>485</x>
+      <y>80</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -43,8 +43,8 @@
    <widget class="QLineEdit" name="L07">
     <property name="geometry">
      <rect>
-      <x>515</x>
-      <y>110</y>
+      <x>435</x>
+      <y>80</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -54,23 +54,32 @@
     </property>
    </widget>
    <widget class="QLineEdit" name="L00">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>110</y>
+      <x>260</x>
+      <y>80</y>
       <width>25</width>
       <height>25</height>
      </rect>
     </property>
+    <property name="inputMask">
+     <string/>
+    </property>
     <property name="maxLength">
      <number>1</number>
+    </property>
+    <property name="readOnly">
+     <bool>false</bool>
     </property>
    </widget>
    <widget class="QLineEdit" name="L06">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>110</y>
+      <x>410</x>
+      <y>80</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -82,8 +91,8 @@
    <widget class="QLineEdit" name="L08">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>110</y>
+      <x>460</x>
+      <y>80</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -95,8 +104,8 @@
    <widget class="QLineEdit" name="L04">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>110</y>
+      <x>360</x>
+      <y>80</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -108,8 +117,8 @@
    <widget class="QLineEdit" name="L03">
     <property name="geometry">
      <rect>
-      <x>415</x>
-      <y>110</y>
+      <x>335</x>
+      <y>80</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -121,8 +130,8 @@
    <widget class="QLineEdit" name="L05">
     <property name="geometry">
      <rect>
-      <x>465</x>
-      <y>110</y>
+      <x>385</x>
+      <y>80</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -134,8 +143,8 @@
    <widget class="QLineEdit" name="L02">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>110</y>
+      <x>310</x>
+      <y>80</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -147,8 +156,8 @@
    <widget class="QLineEdit" name="L15">
     <property name="geometry">
      <rect>
-      <x>465</x>
-      <y>140</y>
+      <x>385</x>
+      <y>110</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -160,8 +169,8 @@
    <widget class="QLineEdit" name="L16">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>140</y>
+      <x>410</x>
+      <y>110</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -173,8 +182,8 @@
    <widget class="QLineEdit" name="L13">
     <property name="geometry">
      <rect>
-      <x>415</x>
-      <y>140</y>
+      <x>335</x>
+      <y>110</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -186,8 +195,8 @@
    <widget class="QLineEdit" name="L10">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>140</y>
+      <x>260</x>
+      <y>110</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -199,8 +208,8 @@
    <widget class="QLineEdit" name="L12">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>140</y>
+      <x>310</x>
+      <y>110</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -212,8 +221,8 @@
    <widget class="QLineEdit" name="L14">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>140</y>
+      <x>360</x>
+      <y>110</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -225,8 +234,8 @@
    <widget class="QLineEdit" name="L11">
     <property name="geometry">
      <rect>
-      <x>365</x>
-      <y>140</y>
+      <x>285</x>
+      <y>110</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -238,8 +247,8 @@
    <widget class="QLineEdit" name="L17">
     <property name="geometry">
      <rect>
-      <x>515</x>
-      <y>140</y>
+      <x>435</x>
+      <y>110</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -251,8 +260,8 @@
    <widget class="QLineEdit" name="L19">
     <property name="geometry">
      <rect>
-      <x>565</x>
-      <y>140</y>
+      <x>485</x>
+      <y>110</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -264,8 +273,8 @@
    <widget class="QLineEdit" name="L18">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>140</y>
+      <x>460</x>
+      <y>110</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -277,8 +286,8 @@
    <widget class="QLineEdit" name="L25">
     <property name="geometry">
      <rect>
-      <x>465</x>
-      <y>170</y>
+      <x>385</x>
+      <y>140</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -290,8 +299,8 @@
    <widget class="QLineEdit" name="L26">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>170</y>
+      <x>410</x>
+      <y>140</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -303,8 +312,8 @@
    <widget class="QLineEdit" name="L23">
     <property name="geometry">
      <rect>
-      <x>415</x>
-      <y>170</y>
+      <x>335</x>
+      <y>140</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -316,8 +325,8 @@
    <widget class="QLineEdit" name="L20">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>170</y>
+      <x>260</x>
+      <y>140</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -329,8 +338,8 @@
    <widget class="QLineEdit" name="L22">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>170</y>
+      <x>310</x>
+      <y>140</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -342,8 +351,8 @@
    <widget class="QLineEdit" name="L24">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>170</y>
+      <x>360</x>
+      <y>140</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -355,8 +364,8 @@
    <widget class="QLineEdit" name="L21">
     <property name="geometry">
      <rect>
-      <x>365</x>
-      <y>170</y>
+      <x>285</x>
+      <y>140</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -368,8 +377,8 @@
    <widget class="QLineEdit" name="L27">
     <property name="geometry">
      <rect>
-      <x>515</x>
-      <y>170</y>
+      <x>435</x>
+      <y>140</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -381,8 +390,8 @@
    <widget class="QLineEdit" name="L29">
     <property name="geometry">
      <rect>
-      <x>565</x>
-      <y>170</y>
+      <x>485</x>
+      <y>140</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -394,8 +403,8 @@
    <widget class="QLineEdit" name="L28">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>170</y>
+      <x>460</x>
+      <y>140</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -407,8 +416,8 @@
    <widget class="QLineEdit" name="L35">
     <property name="geometry">
      <rect>
-      <x>465</x>
-      <y>200</y>
+      <x>385</x>
+      <y>170</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -420,8 +429,8 @@
    <widget class="QLineEdit" name="L36">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>200</y>
+      <x>410</x>
+      <y>170</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -433,8 +442,8 @@
    <widget class="QLineEdit" name="L33">
     <property name="geometry">
      <rect>
-      <x>415</x>
-      <y>200</y>
+      <x>335</x>
+      <y>170</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -446,8 +455,8 @@
    <widget class="QLineEdit" name="L30">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>200</y>
+      <x>260</x>
+      <y>170</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -459,8 +468,8 @@
    <widget class="QLineEdit" name="L32">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>200</y>
+      <x>310</x>
+      <y>170</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -472,8 +481,8 @@
    <widget class="QLineEdit" name="L34">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>200</y>
+      <x>360</x>
+      <y>170</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -485,8 +494,8 @@
    <widget class="QLineEdit" name="L31">
     <property name="geometry">
      <rect>
-      <x>365</x>
-      <y>200</y>
+      <x>285</x>
+      <y>170</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -498,8 +507,8 @@
    <widget class="QLineEdit" name="L37">
     <property name="geometry">
      <rect>
-      <x>515</x>
-      <y>200</y>
+      <x>435</x>
+      <y>170</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -511,8 +520,8 @@
    <widget class="QLineEdit" name="L39">
     <property name="geometry">
      <rect>
-      <x>565</x>
-      <y>200</y>
+      <x>485</x>
+      <y>170</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -524,8 +533,8 @@
    <widget class="QLineEdit" name="L38">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>200</y>
+      <x>460</x>
+      <y>170</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -537,8 +546,8 @@
    <widget class="QLineEdit" name="L45">
     <property name="geometry">
      <rect>
-      <x>465</x>
-      <y>230</y>
+      <x>385</x>
+      <y>200</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -550,8 +559,8 @@
    <widget class="QLineEdit" name="L46">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>230</y>
+      <x>410</x>
+      <y>200</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -563,8 +572,8 @@
    <widget class="QLineEdit" name="L43">
     <property name="geometry">
      <rect>
-      <x>415</x>
-      <y>230</y>
+      <x>335</x>
+      <y>200</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -576,8 +585,8 @@
    <widget class="QLineEdit" name="L40">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>230</y>
+      <x>260</x>
+      <y>200</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -589,8 +598,8 @@
    <widget class="QLineEdit" name="L42">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>230</y>
+      <x>310</x>
+      <y>200</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -602,8 +611,8 @@
    <widget class="QLineEdit" name="L44">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>230</y>
+      <x>360</x>
+      <y>200</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -615,8 +624,8 @@
    <widget class="QLineEdit" name="L41">
     <property name="geometry">
      <rect>
-      <x>365</x>
-      <y>230</y>
+      <x>285</x>
+      <y>200</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -628,8 +637,8 @@
    <widget class="QLineEdit" name="L47">
     <property name="geometry">
      <rect>
-      <x>515</x>
-      <y>230</y>
+      <x>435</x>
+      <y>200</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -641,8 +650,8 @@
    <widget class="QLineEdit" name="L49">
     <property name="geometry">
      <rect>
-      <x>565</x>
-      <y>230</y>
+      <x>485</x>
+      <y>200</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -654,8 +663,8 @@
    <widget class="QLineEdit" name="L48">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>230</y>
+      <x>460</x>
+      <y>200</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -667,8 +676,8 @@
    <widget class="QLineEdit" name="L55">
     <property name="geometry">
      <rect>
-      <x>465</x>
-      <y>260</y>
+      <x>385</x>
+      <y>230</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -680,8 +689,8 @@
    <widget class="QLineEdit" name="L56">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>260</y>
+      <x>410</x>
+      <y>230</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -693,8 +702,8 @@
    <widget class="QLineEdit" name="L53">
     <property name="geometry">
      <rect>
-      <x>415</x>
-      <y>260</y>
+      <x>335</x>
+      <y>230</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -706,8 +715,8 @@
    <widget class="QLineEdit" name="L50">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>260</y>
+      <x>260</x>
+      <y>230</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -719,8 +728,8 @@
    <widget class="QLineEdit" name="L52">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>260</y>
+      <x>310</x>
+      <y>230</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -732,8 +741,8 @@
    <widget class="QLineEdit" name="L54">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>260</y>
+      <x>360</x>
+      <y>230</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -745,8 +754,8 @@
    <widget class="QLineEdit" name="L51">
     <property name="geometry">
      <rect>
-      <x>365</x>
-      <y>260</y>
+      <x>285</x>
+      <y>230</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -758,8 +767,8 @@
    <widget class="QLineEdit" name="L57">
     <property name="geometry">
      <rect>
-      <x>515</x>
-      <y>260</y>
+      <x>435</x>
+      <y>230</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -771,8 +780,8 @@
    <widget class="QLineEdit" name="L59">
     <property name="geometry">
      <rect>
-      <x>565</x>
-      <y>260</y>
+      <x>485</x>
+      <y>230</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -784,8 +793,8 @@
    <widget class="QLineEdit" name="L58">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>260</y>
+      <x>460</x>
+      <y>230</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -797,8 +806,8 @@
    <widget class="QLineEdit" name="L65">
     <property name="geometry">
      <rect>
-      <x>465</x>
-      <y>290</y>
+      <x>385</x>
+      <y>260</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -810,8 +819,8 @@
    <widget class="QLineEdit" name="L66">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>290</y>
+      <x>410</x>
+      <y>260</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -823,8 +832,8 @@
    <widget class="QLineEdit" name="L63">
     <property name="geometry">
      <rect>
-      <x>415</x>
-      <y>290</y>
+      <x>335</x>
+      <y>260</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -836,8 +845,8 @@
    <widget class="QLineEdit" name="L60">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>290</y>
+      <x>260</x>
+      <y>260</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -849,8 +858,8 @@
    <widget class="QLineEdit" name="L62">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>290</y>
+      <x>310</x>
+      <y>260</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -862,8 +871,8 @@
    <widget class="QLineEdit" name="L64">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>290</y>
+      <x>360</x>
+      <y>260</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -875,8 +884,8 @@
    <widget class="QLineEdit" name="L61">
     <property name="geometry">
      <rect>
-      <x>365</x>
-      <y>290</y>
+      <x>285</x>
+      <y>260</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -888,8 +897,8 @@
    <widget class="QLineEdit" name="L67">
     <property name="geometry">
      <rect>
-      <x>515</x>
-      <y>290</y>
+      <x>435</x>
+      <y>260</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -901,8 +910,8 @@
    <widget class="QLineEdit" name="L69">
     <property name="geometry">
      <rect>
-      <x>565</x>
-      <y>290</y>
+      <x>485</x>
+      <y>260</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -914,8 +923,8 @@
    <widget class="QLineEdit" name="L68">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>290</y>
+      <x>460</x>
+      <y>260</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -927,8 +936,8 @@
    <widget class="QLineEdit" name="L75">
     <property name="geometry">
      <rect>
-      <x>465</x>
-      <y>320</y>
+      <x>385</x>
+      <y>290</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -940,8 +949,8 @@
    <widget class="QLineEdit" name="L76">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>320</y>
+      <x>410</x>
+      <y>290</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -953,8 +962,8 @@
    <widget class="QLineEdit" name="L73">
     <property name="geometry">
      <rect>
-      <x>415</x>
-      <y>320</y>
+      <x>335</x>
+      <y>290</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -966,8 +975,8 @@
    <widget class="QLineEdit" name="L70">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>320</y>
+      <x>260</x>
+      <y>290</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -979,8 +988,8 @@
    <widget class="QLineEdit" name="L72">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>320</y>
+      <x>310</x>
+      <y>290</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -992,8 +1001,8 @@
    <widget class="QLineEdit" name="L74">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>320</y>
+      <x>360</x>
+      <y>290</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1005,8 +1014,8 @@
    <widget class="QLineEdit" name="L71">
     <property name="geometry">
      <rect>
-      <x>365</x>
-      <y>320</y>
+      <x>285</x>
+      <y>290</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1018,8 +1027,8 @@
    <widget class="QLineEdit" name="L77">
     <property name="geometry">
      <rect>
-      <x>515</x>
-      <y>320</y>
+      <x>435</x>
+      <y>290</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1031,8 +1040,8 @@
    <widget class="QLineEdit" name="L79">
     <property name="geometry">
      <rect>
-      <x>565</x>
-      <y>320</y>
+      <x>485</x>
+      <y>290</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1044,8 +1053,8 @@
    <widget class="QLineEdit" name="L78">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>320</y>
+      <x>460</x>
+      <y>290</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1057,8 +1066,8 @@
    <widget class="QLineEdit" name="L85">
     <property name="geometry">
      <rect>
-      <x>465</x>
-      <y>350</y>
+      <x>385</x>
+      <y>320</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1070,8 +1079,8 @@
    <widget class="QLineEdit" name="L86">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>350</y>
+      <x>410</x>
+      <y>320</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1083,8 +1092,8 @@
    <widget class="QLineEdit" name="L83">
     <property name="geometry">
      <rect>
-      <x>415</x>
-      <y>350</y>
+      <x>335</x>
+      <y>320</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1096,8 +1105,8 @@
    <widget class="QLineEdit" name="L80">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>350</y>
+      <x>260</x>
+      <y>320</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1109,8 +1118,8 @@
    <widget class="QLineEdit" name="L82">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>350</y>
+      <x>310</x>
+      <y>320</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1122,8 +1131,8 @@
    <widget class="QLineEdit" name="L84">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>350</y>
+      <x>360</x>
+      <y>320</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1135,8 +1144,8 @@
    <widget class="QLineEdit" name="L81">
     <property name="geometry">
      <rect>
-      <x>365</x>
-      <y>350</y>
+      <x>285</x>
+      <y>320</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1148,8 +1157,8 @@
    <widget class="QLineEdit" name="L87">
     <property name="geometry">
      <rect>
-      <x>515</x>
-      <y>350</y>
+      <x>435</x>
+      <y>320</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1161,8 +1170,8 @@
    <widget class="QLineEdit" name="L89">
     <property name="geometry">
      <rect>
-      <x>565</x>
-      <y>350</y>
+      <x>485</x>
+      <y>320</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1174,8 +1183,8 @@
    <widget class="QLineEdit" name="L88">
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>350</y>
+      <x>460</x>
+      <y>320</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1187,8 +1196,8 @@
    <widget class="QLineEdit" name="L95">
     <property name="geometry">
      <rect>
-      <x>465</x>
-      <y>380</y>
+      <x>385</x>
+      <y>350</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1200,8 +1209,8 @@
    <widget class="QLineEdit" name="L96">
     <property name="geometry">
      <rect>
-      <x>490</x>
-      <y>380</y>
+      <x>410</x>
+      <y>350</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1213,8 +1222,8 @@
    <widget class="QLineEdit" name="L93">
     <property name="geometry">
      <rect>
-      <x>415</x>
-      <y>380</y>
+      <x>335</x>
+      <y>350</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1226,8 +1235,8 @@
    <widget class="QLineEdit" name="L90">
     <property name="geometry">
      <rect>
-      <x>340</x>
-      <y>380</y>
+      <x>260</x>
+      <y>350</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1239,8 +1248,8 @@
    <widget class="QLineEdit" name="L92">
     <property name="geometry">
      <rect>
-      <x>390</x>
-      <y>380</y>
+      <x>310</x>
+      <y>350</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1252,8 +1261,8 @@
    <widget class="QLineEdit" name="L94">
     <property name="geometry">
      <rect>
-      <x>440</x>
-      <y>380</y>
+      <x>360</x>
+      <y>350</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1265,8 +1274,8 @@
    <widget class="QLineEdit" name="L91">
     <property name="geometry">
      <rect>
-      <x>365</x>
-      <y>380</y>
+      <x>285</x>
+      <y>350</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1278,8 +1287,8 @@
    <widget class="QLineEdit" name="L97">
     <property name="geometry">
      <rect>
-      <x>515</x>
-      <y>380</y>
+      <x>435</x>
+      <y>350</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1291,8 +1300,8 @@
    <widget class="QLineEdit" name="L99">
     <property name="geometry">
      <rect>
-      <x>565</x>
-      <y>380</y>
+      <x>485</x>
+      <y>350</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1302,10 +1311,13 @@
     </property>
    </widget>
    <widget class="QLineEdit" name="L98">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
     <property name="geometry">
      <rect>
-      <x>540</x>
-      <y>380</y>
+      <x>460</x>
+      <y>350</y>
       <width>25</width>
       <height>25</height>
      </rect>
@@ -1314,13 +1326,36 @@
      <number>1</number>
     </property>
    </widget>
+   <widget class="QLineEdit" name="MessageBox">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>420</y>
+      <width>271</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>962</width>
+     <width>808</width>
      <height>26</height>
     </rect>
    </property>
